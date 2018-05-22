@@ -2,8 +2,8 @@
 
 
 wget http://nginx.org/download/nginx-1.9.12.tar.gz
-tar -xf nginx*
-cd nginx*
+tar -xf nginx-1.9.12.tar.gz
+cd nginx-1.9.12
 
 # Configure options taken from the current Ubuntu 12.04 `nginx-light` rules
 # with the addition of the slice module, and the removal of a no-longer-valid one
