@@ -18,10 +18,11 @@ ADD sony.conf /etc/nginx/conf.d/
 ADD microsoft.conf /etc/nginx/conf.d/
 ADD hirez.conf /etc/nginx/conf.d/
 ADD epic.conf /etc/nginx/conf.d/
+ADD uplay.conf /etc/nginx/conf.d/
 
 RUN mkdir -p /var/lib/nginx/body 
 RUN mkdir -p /var/lib/nginx/fastcgi 
-RUN mkdir -p /cache/origin /cache/steam /cache/blizzard /cache/league /cache/wargaming /cache/sony /cache/microsoft /cache/hirez /cache/epic
+RUN mkdir -p /cache/origin /cache/steam /cache/blizzard /cache/league /cache/wargaming /cache/sony /cache/microsoft /cache/hirez /cache/epic /cache/uplay
 
 ADD nginx.conf /etc/nginx/nginx.conf
 
